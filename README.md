@@ -23,8 +23,10 @@ End the program and close the output image windows.
 ### Register Number: 
 i) #To Read,display the image
 ```
-  
-
+import cv2
+color_image=cv2.imread('Moon.jpg',1)
+cv2.imshow('212222230052 Moon',color_image)
+cv2.waitKey(0) 
 ```
 ii) #To write the image
 ```
